@@ -18,6 +18,7 @@
 		EB3A90B91818352000BB64C8 /* Default-568h@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = EB3A90B81818352000BB64C8 /* Default-568h@2x.png */; };
 		EB3A90BC1818352000BB64C8 /* MainStoryboard.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = EB3A90BA1818352000BB64C8 /* MainStoryboard.storyboard */; };
 		EB3A90BF1818352000BB64C8 /* HelloViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = EB3A90BE1818352000BB64C8 /* HelloViewController.m */; };
+		EB3A90C718183BA700BB64C8 /* FirstClass.m in Sources */ = {isa = PBXBuildFile; fileRef = EB3A90C618183BA700BB64C8 /* FirstClass.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -37,6 +38,8 @@
 		EB3A90BB1818352000BB64C8 /* en */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = en; path = en.lproj/MainStoryboard.storyboard; sourceTree = "<group>"; };
 		EB3A90BD1818352000BB64C8 /* HelloViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = HelloViewController.h; sourceTree = "<group>"; };
 		EB3A90BE1818352000BB64C8 /* HelloViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = HelloViewController.m; sourceTree = "<group>"; };
+		EB3A90C518183BA700BB64C8 /* FirstClass.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = FirstClass.h; sourceTree = "<group>"; };
+		EB3A90C618183BA700BB64C8 /* FirstClass.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = FirstClass.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -88,6 +91,8 @@
 				EB3A90BA1818352000BB64C8 /* MainStoryboard.storyboard */,
 				EB3A90BD1818352000BB64C8 /* HelloViewController.h */,
 				EB3A90BE1818352000BB64C8 /* HelloViewController.m */,
+				EB3A90C518183BA700BB64C8 /* FirstClass.h */,
+				EB3A90C618183BA700BB64C8 /* FirstClass.m */,
 				EB3A90A91818352000BB64C8 /* Supporting Files */,
 			);
 			path = Lesson1;
@@ -177,6 +182,7 @@
 				EB3A90AF1818352000BB64C8 /* main.m in Sources */,
 				EB3A90B31818352000BB64C8 /* HelloAppDelegate.m in Sources */,
 				EB3A90BF1818352000BB64C8 /* HelloViewController.m in Sources */,
+				EB3A90C718183BA700BB64C8 /* FirstClass.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
