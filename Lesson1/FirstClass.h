@@ -10,4 +10,7 @@
 
 @interface FirstClass : NSObject
 
+- (void)printSomething:(NSString*) anyText
+             addNumber:(int) anyNumber;
+
 @end

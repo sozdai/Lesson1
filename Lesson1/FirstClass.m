@@ -10,4 +10,10 @@
 
 @implementation FirstClass
 
+- (void)printSomething:(NSString*) anyText
+             addNumber:(int) anyNumber{
+    NSLog(@"%@",anyText);
+    NSLog(@"%d",anyNumber);
+}
+
 @end

@@ -7,12 +7,18 @@
 //
 
 #import "HelloAppDelegate.h"
+#import "FirstClass.h"
 
 @implementation HelloAppDelegate
 
 - (BOOL)application:(UIApplication *)application didFinishLaunchingWithOptions:(NSDictionary *)launchOptions
 {
     // Override point for customization after application launch.
+    NSString *s = @"Вы мне еще за Севастополь ответите";
+    NSNumber *n = [[NSNumber alloc] initWithInt:12];
+    int nn =15;
+    FirstClass *firstClass = [[FirstClass alloc] init];
+    [firstClass printSomething:s addNumber:nn];
     return YES;
 }
 							
